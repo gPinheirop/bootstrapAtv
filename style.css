@@ -8,3 +8,20 @@
     background-position: center;
     background-size: contain;
 }
+
+.image {
+    height: 40vh;
+}
+
+div.card {
+    justify-self: center;
+}
+div.col {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 576px) {
+    .image {
+        height: 20vh;
+    }
+}
